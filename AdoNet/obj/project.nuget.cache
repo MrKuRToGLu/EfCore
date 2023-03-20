@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "dgSpecHash": "O7NqBX+TraC0/GmUFciI6P61mH40ZigQHiddmD3AN3bt7NWrSP7xyAzXxkB44dC1CP+BEcr5p9JO29CXeeF9Xw==",
+  "success": false,
+  "projectFilePath": "D:\\EfCoreHoca\\AdoNet\\AdoNet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Principal.Windows 4.7.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Security.Principal.Windows",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package System.Data.SqlClient 4.8.5 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Package System.Data.SqlClient 4.8.5 supports:\r\n  - monoandroid10 (MonoAndroid,Version=v1.0)\r\n  - monotouch10 (MonoTouch,Version=v1.0)\r\n  - xamarinios10 (Xamarin.iOS,Version=v1.0)\r\n  - xamarinmac20 (Xamarin.Mac,Version=v2.0)\r\n  - xamarintvos10 (Xamarin.TVOS,Version=v1.0)\r\n  - xamarinwatchos10 (Xamarin.WatchOS,Version=v1.0)",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.Win32.Registry 4.7.0 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Package Microsoft.Win32.Registry 4.7.0 does not support any target frameworks.",
+      "libraryId": "Microsoft.Win32.Registry",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
